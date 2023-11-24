@@ -29,15 +29,18 @@ p{
   overflow: auto;
   width: 85%;
   margin: 1em auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 
 .nav h1 {
   text-transform: uppercase;
-  width: 30%;
-  float: left;
+  /* width: 30%; */
+  /* float: left; */
   font-size: 2em;
-  text-decoration: underline #EE7171 4px solid;
+  display: inline-block;
+  border-bottom: #EE7171 4px solid;
   text-underline-offset: 0.3ex;
   padding-top: 10px;
   
@@ -53,7 +56,7 @@ p{
   width: 70%;
   float: left;
   text-align: right;
-  padding-top: 1em;
+  padding-top: 0.5em;
 }
 
 .nav ul li {
@@ -433,6 +436,7 @@ form input[type="submit"]{
 
 .social-widgets h3{
   text-transform: uppercase;
+  display: inline-block;
   font-size: 2em;
   text-decoration: underline white 4px solid;
   text-underline-offset: 0.3ex;
